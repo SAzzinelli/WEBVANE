@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+	font-family:'Montserrat';
+	background-color: black;
+	margin: 0 100px;
+}
+
+iframe {
+	height: 200px;
+}
+
+header {
+	margin: 10px 20px;
+}
+
+li {
+	padding-top: 20px;
+	list-style: none;
+	display: inline-block;
+	color: white;
+	padding-left: 30px;
+}
+
+ul.nav_link li  a:hover {
+	transition: 0.2s;
+	color: white;
+}
+
+ul.nav_link li a{
+	color: #EEE87E;
+	text-decoration: none;
+}
+
+ul {
+float: right;
+}
+
+.logo {
+	float:left;
+}
+.immagineprincipale {
+	width: 100%;
+	margin-bottom: 50px;
+	clear: both;
+	
+}
+.fotodualipa {
+	border-radius: 20px;
+	width: 30%;
+	margin-right: 40px;
+	float: left;
+	
+}
+#sezione1 {
+	padding: 0 5%;
+	display: inline-block;
+}
+
+#sezione1 p {
+	text-align: justify;
+	font-size: 20px;
+	color:white;
+	width: 100%;
+	margin-top: 10%;
+}
+
+.cta {
+	border-style: solid;
+	background-color: #f0e87c;
+	border-color: #f0e87c;
+	border-radius: 6px;
+	font-size: 20px;
+	text-align: center;
+	padding:10px 40px;
+}
+
+.cta:hover {
+	border-style: solid;
+	background-color: #434343;
+	border-color: #434343;
+	border-radius: 6px;
+	font-size: 20px;
+	text-align: center;
+	padding:10px 40px;
+}
+
+
+
+.box{
+	float: left;
+	text-align: center;
+	width: 33%;
+	margin-top: 80px;
+	
+}
+
+#sezione2 {
+	clear: both;
+	width: 100%;
+}
+
+.testoColonna {
+	color:white;
+	font-size: 25px;
+	font-style:italic;
+}
+
+.box img {
+	width:70%;
+	border-radius: 20px;
+} 
+#sezione3{
+	clear: both;
+	margin-top:20%;
+}
+#sezione3 h3 {
+	font-weight: bold;
+	color: #ff7bd7;
+	font-family: "Montserrat";
+	text-align: center;
+	font-size: 40px;
+margin-top: 600px;
+}
+#sezione3 h4{
+	font-style: italic; 
+	font-weight: bold;
+	color: #ff7bd7;
+	font-family: "Montserrat";
+	text-align: center;
+	font-size: 40px;
+}
+
+.fotolive {
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 100px;
+}
+
+.frasefinale{
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	
+}
+
+.boxfooter{
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	margin: 0 2% 0 0;
+    width: 31%;	
+}
+
+.testoFooter {
+	margin-top: 50px;
+	color:white;
+	font-size: 15px;
+	font-style:italic;
+	font-style: bold;	
+}
+
+.titoloColonna {
+	margin-bottom: 18px;
+	color:white;
+	font-size: 25px;
+	font-style:italic;
+}
+
+.boxfooter img {
+	margin-bottom: 17px;
+}
+
+.articolo {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.articolo img {
+	text-align: center;
+	border-radius: 0px;
+	width: 20%;
+}
+
+.articolo p {
+	text-align: left;
+	font-size: 16px;
+	color:white;
+	float:left;
+	width: 50%;
+	margin-top: 0%;
+}
+
+.articolo h4{
+	font-style: italic;
+	color: white;
+	font-size: 28px;
+}
+
+.articolo h4:hover{
+	font-style: italic;
+	color: #f0e87c;
+	cursor: pointer;
+}
+
+.fotobio {
+	border-radius: 20px;
+	width: 30%;
+	margin-right: 40px;
+	float: left;	
+}
+
+#articolo2 img {
+float: right;
+}
+
+#articolo2 p {
+width: 70%;
+text-align: right;
+}
+
+#articolo2 h4 {
+text-align: right;
+margin-right: 4%}
+
+
